@@ -1,1 +1,4 @@
 @import '../../../../node_modules/materialize-css/dist/css/materialize.min.css';
+#sidenav-overlay {
+  z-index: 996;
+}
