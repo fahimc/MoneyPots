@@ -1,0 +1,22 @@
+.saving-card {
+  .card.horizontal .card-image {
+    width: 5%;
+  }
+  .card .card-content p {
+    display: inline-block;
+    width: 67%;
+    vertical-align: top;
+    span {
+      font-weight: bold;
+      font-size: 19px;
+    }
+  }
+  .card .card-content>span {
+    display: inline-block;
+    width: 30%;
+    font-size: 39px;
+    font-weight: 800;
+    text-align: right;
+    vertical-align: top;
+  }
+}
