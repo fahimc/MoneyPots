@@ -1,4 +1,11 @@
 export default {
-name: 'navbar'
+name: 'navbar',
+mounted(){
+  $( document ).ready(function(){
+    $(".button-collapse").sideNav();
+  })
+  console.log($(".button-collapse"));
+  //
+}
 };
 

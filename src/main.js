@@ -3,6 +3,8 @@
 import Vue from 'vue';
 import App from './components/app/app';
 import router from './router';
+var $ = window.jQuery = require('jquery');
+require('materialize-css/dist/js/materialize.min.js');
 
 Vue.config.productionTip = false;
 

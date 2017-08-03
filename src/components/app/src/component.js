@@ -1,4 +1,6 @@
+import Navbar from '../../navbar/navbar';
 export default {
-name: 'app'
+name: 'app',
+components:{Navbar}
 };
 
