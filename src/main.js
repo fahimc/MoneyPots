@@ -3,9 +3,9 @@
 import Vue from 'vue';
 import App from './components/app/app';
 import router from './router';
+import DB from './service/db';
 var $ = window.jQuery = require('jquery');
 require('materialize-css/dist/js/materialize.min.js');
-
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
@@ -13,5 +13,9 @@ new Vue({
   el: '#app',
   router,
   render: h => h(App),
-  components: {App }
+  components: { App }
+});
+
+DB.open().then(()=>{
+  console.log('done');
 });

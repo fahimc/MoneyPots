@@ -1,0 +1,31 @@
+{
+  "short_name": "MoneyPot",
+  "name": "MoneyPot",
+  "icons": [
+    {
+      "src": "static/image/launcher-icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "static/image/launcher-icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "static/image/launcher-icon-3x.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "static/image/launcher-icon-4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "background_color":"#03A9F4",
+  "theme_color": "#03A9F4",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "index.html?launcher=true"
+}
